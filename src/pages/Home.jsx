@@ -23,7 +23,8 @@ function Home(){
         
         try{
             const response = await fetch(
-                "http://127.0.0.1:8000/upload",
+                fetch(
+                    "https://smart-dataset-analyzer-v2.onrender.com/upload",
                 {
                     method: "POST",
                     body: formData
