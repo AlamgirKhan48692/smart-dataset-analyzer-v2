@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+html,
+body,
+#root {
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-color: aliceblue;
+  border: solid 1px black;
+}
+
+#root {
+  max-width: none;
+}
+
+.box {
+  background-color:azure;
+  @apply w-150 mx-auto mt-20 text-center border border-1 p-5 rounded-[10px] shadow
+}
+
+.heading {
+  @apply text-3xl font-bold mt-5;
+}
+
+.green-btn{
+  border-radius: 5px;
+  font-size: 15px;
+  width: 70px;
+  color: white;
+  @apply p-2 font-bold bg-green-400 border-1;
+}
+
+.red-btn{
+  border-radius: 5px;
+  font-size: 15px;
+  width: 70px;
+  color: white;
+  @apply p-2 font-bold bg-red-500 ml-2 border-1;
+}
