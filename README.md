@@ -6,6 +6,16 @@ Users can upload datasets, explore dataset statistics, visualize data, detect mi
 
 ---
 
+## 🌐 Live Demo
+
+🚀 Frontend Application  
+https://smart-dataset-analyzer-v2.vercel.app
+
+📚 Backend API Documentation  
+https://smart-dataset-analyzer-v2.onrender.com/docs
+
+---
+
 ## 🚀 Current Features
 
 ### 📁 Dataset Upload
