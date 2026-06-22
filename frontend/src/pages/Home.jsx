@@ -23,13 +23,12 @@ function Home(){
         
         try{
             const response = await fetch(
-                fetch(
                     "https://smart-dataset-analyzer-v2.onrender.com/upload",
                 {
                     method: "POST",
                     body: formData
                 }
-            )
+            
             );
             const data = await response.json(); 
 
